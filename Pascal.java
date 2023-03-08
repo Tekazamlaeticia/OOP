@@ -15,4 +15,8 @@ public class Pascal {
                 return pascal(i - 1, j - 1) + pascal(i - 1, j);
             }
         }
+    public static void main(String[] args) {
+        print(5);
+
+    }
 }
